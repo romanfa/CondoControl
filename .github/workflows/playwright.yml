@@ -30,9 +30,4 @@ jobs:
         with:
           name: playwright-report
           path: playwright-report
-      
-      - name: Send Report to Azure AI
-        run: node scripts/send-to-azure.js
-        env:
-         AZURE_ENDPOINT: ${{ secrets.AZURE_ENDPOINT }}
-         AZURE_API_KEY: ${{ secrets.AZURE_API_KEY }}
+          
