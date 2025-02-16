@@ -1,5 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
-
+import dotenv from 'dotenv';
+dotenv.config();
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -30,10 +31,11 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'retain-on-failure',
-    headless: true,
+    headless: false,
+    baseURL: process.env.BASE_URL, 
   },
   outputDir: 'test-results',
-  timeout:0,
+  timeout:10000,
  
   
   
@@ -42,11 +44,9 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],
-        headless: true,
         viewport: { width: 1720, height: 1080 },
         ignoreHTTPSErrors: true,
         acceptDownloads: true,
-        screenshot: `retain-on-failure`,
         video: `retain-on-failure`,
         trace: `retain-on-failure`,
         launchOptions: {
