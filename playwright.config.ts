@@ -29,7 +29,7 @@ export default defineConfig({
     // baseURL: 'http://127.0.0.1:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on',
+    trace: 'retain-on-failure',
     headless: true,
   },
   outputDir: 'test-results',
@@ -46,9 +46,9 @@ export default defineConfig({
         viewport: { width: 1720, height: 1080 },
         ignoreHTTPSErrors: true,
         acceptDownloads: true,
-        screenshot: `on`,
-        video: `on`,
-        trace: `on`,
+        screenshot: `retain-on-failure`,
+        video: `retain-on-failure`,
+        trace: `retain-on-failure`,
         launchOptions: {
           slowMo: 0
         }
