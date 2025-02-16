@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","261","Test name","chromium","Sun Feb 16 15:34:47 EST 2025","passed","Sun Feb 16 15:34:47 EST 2025","","specs/example.spec.ts","",""
+"","902","has title","chromium","Sun Feb 16 15:34:45 EST 2025","passed","Sun Feb 16 15:34:45 EST 2025","","specs/example.spec.ts","",""
+"","622","get started link","chromium","Sun Feb 16 15:34:46 EST 2025","passed","Sun Feb 16 15:34:47 EST 2025","","specs/example.spec.ts","",""
