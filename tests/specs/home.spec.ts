@@ -18,5 +18,13 @@ test.describe("Main Tab Suite", () => {
     await expect(homePage.solutionDropdown).toBeVisible();
   });
 
+  test("Hovering on EN tab shows dropdown", async ({ page }) => {
+    const homePage = new HomePage(page);
+    await homePage.goto();
+    await expect(homePage.languageDropdown).not.toBeVisible();
+    await homePage.hoverOnLanguage();
+    await expect(homePage.languageDropdown).toBeVisible();
+  });
+
 
 });
