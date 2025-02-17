@@ -1,3 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","2085","Hovering on Solutions tab shows dropdown","chromium","Mon Feb 17 19:05:54 UTC 2025","passed","Mon Feb 17 19:05:56 UTC 2025","Main Tab Suite","specs/home.spec.ts","",""
-"","2197","Hovering on Product tab shows dropdown","chromium","Mon Feb 17 19:05:51 UTC 2025","passed","Mon Feb 17 19:05:54 UTC 2025","Main Tab Suite","specs/home.spec.ts","",""
+"","2148","Hovering on EN tab shows dropdown","chromium","Mon Feb 17 19:25:24 UTC 2025","passed","Mon Feb 17 19:25:26 UTC 2025","Main Tab Suite","specs/home.spec.ts","",""
+"","2300","Hovering on Solutions tab shows dropdown","chromium","Mon Feb 17 19:25:22 UTC 2025","passed","Mon Feb 17 19:25:24 UTC 2025","Main Tab Suite","specs/home.spec.ts","",""
+"","2407","Hovering on Product tab shows dropdown","chromium","Mon Feb 17 19:25:19 UTC 2025","passed","Mon Feb 17 19:25:22 UTC 2025","Main Tab Suite","specs/home.spec.ts","",""
