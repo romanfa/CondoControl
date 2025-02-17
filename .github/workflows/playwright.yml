@@ -35,6 +35,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
 
+          
       - name: Show Allure Report Link
         run: |
           echo "Allure Report: ${{ steps.deploy.outputs.page_url }}"
