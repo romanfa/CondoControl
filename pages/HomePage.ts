@@ -18,6 +18,7 @@ export class HomePage {
     this.solutionDropdown = page.locator('text=Solutions overview');
     this.languageTab=page.locator('a[title="EN"]')
     this.languageDropdown=page.locator('a[title="FR"]')
+    
   }
 
   async goto() {
