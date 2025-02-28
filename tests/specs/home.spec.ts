@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 import { HomePage } from "../../pages/HomePage";
 
 test.describe("Main Tab Suite", () => {
-  test.only("Hovering on Product tab shows dropdown", async ({ page }) => {
+  test("Hovering on Product tab shows dropdown", async ({ page }) => {
     const homePage = new HomePage(page);
     await homePage.goto();
     await expect(homePage.productDropdown).not.toBeVisible();
