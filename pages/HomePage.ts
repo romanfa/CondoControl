@@ -13,7 +13,7 @@ export class HomePage {
     this.page = page;
     // Adjust these locators to match actual elements
     this.productTab = page.locator('a.mega-menu-link[href="/product"]');
-    this.productDropdown = page.locator('text=Announcements');
+    this.productDropdown = page.locator('img[src*="RecordKeeping_PortfolioManagement.png-1.webp"]');
     this.solutionTab = page.locator('a.mega-menu-link[href="/solutions"]', { hasText: /^Solutions$/ });
     this.solutionDropdown = page.locator('text=Solutions overview');
     this.languageTab=page.locator('a[title="EN"]')
